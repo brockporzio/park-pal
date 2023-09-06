@@ -1,0 +1,29 @@
+/* styles.css (or your custom CSS file) */
+
+/* Ensure the app takes up the full viewport height */
+html, body {
+    height: 100%;
+  }
+  
+  /* Create a flex container for the app */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height to occupy the full viewport */
+  }
+  
+  /* Header stays at the top */
+  app-header {
+    flex-shrink: 0; /* Prevent header from shrinking */
+  }
+  
+  /* Content flexes in the middle */
+  .content {
+    flex-grow: 1; /* Allow content to grow and take remaining space */
+  }
+  
+  /* Footer stays at the bottom */
+  app-footer {
+    flex-shrink: 0; /* Prevent footer from shrinking */
+  }
+  
