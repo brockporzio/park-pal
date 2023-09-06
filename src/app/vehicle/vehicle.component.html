@@ -1,0 +1,24 @@
+<form>
+    <div>
+      <label for="make">Make:</label>
+      <input type="text" id="make" [(ngModel)]="vehicle.make">
+    </div>
+    <div>
+      <label for="model">Model:</label>
+      <input type="text" id="model" [(ngModel)]="vehicle.model">
+    </div>
+    <div>
+      <label for="year">Year:</label>
+      <input type="number" id="year" [(ngModel)]="vehicle.year">
+    </div>
+    <div>
+        <label for="color">Color:</label>
+        <input type="text" id="color" [(ngModel)]="vehicle.color">
+    </div>
+    <div>
+        <label for="vin">Vin:</label>
+        <input type="number" id="vin" [(ngModel)]="vehicle.vin">
+      </div>
+    <button>Add Vehicle</button>
+  </form>
+  
